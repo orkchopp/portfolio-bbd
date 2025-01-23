@@ -215,16 +215,21 @@ nav .right a span {
     margin-bottom: 100px;
 }
 
-.contact-section h2 {
-    font-size: 32px;
-}
-
-.contact-section .group {
+.contact-content {
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    align-items: center;
 }
 
-.contact-section .group .text {
-    flex: 3;
-    margin-top: 15px;
+.contact-text {
+    flex: 2;
+}
+
+.contact-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-text p {
+    font-size: 18px;
 }
