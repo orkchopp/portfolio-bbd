@@ -204,6 +204,11 @@ nav .right a span {
     text-align: center;
 }
 
+.projects-section .blocks .block:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 16px rgba(173, 173, 173, 0.733);
+}
+
 .projects-section .blocks .block .project-title {
     font-size: 20px;
     font-weight: bold;
