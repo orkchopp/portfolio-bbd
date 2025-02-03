@@ -22,10 +22,10 @@ function getWeather(position) {
             let country = data.sys.country;
             let description = data.weather[0].description;
             let temperature = data.main.temp;
-            
+
             document.getElementById('weather').innerHTML = `
                 <h2>${location} - ${country}</h2>
                 <p>${description.toUpperCase()}</p>
                 <p>${temperature} C</p>`;
         }).catch(error => console.error('Error', error));
-}
+};

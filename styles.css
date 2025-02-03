@@ -238,3 +238,15 @@ nav .right a span {
 .contact-text p {
     font-size: 18px;
 }
+
+@media (max-width: 600px) {
+    .hero .pfp {
+      display: none;
+    }
+}
+
+@media (max-width: 376px) {
+    .right i {
+        display: none;
+    }
+}
